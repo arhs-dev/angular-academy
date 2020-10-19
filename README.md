@@ -1,27 +1,11 @@
-# AngularAcademy
+# Exercises
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+1. Create An ACTORS LIST
+   ..*When clicking on a movie from the movies list, call the server to get the actors list.
+   ..*Create a caching interceptor that will check if data are already in cache and get them from there, or if there are not do the actual request.
+   ..*Use the same approach with the movies list example with the Module that creates fake entities instead of calling the server. For example create an entity that has actors list and id
+   ..*Show the list of actors under movies
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Create A Registration FORM
+   ..*Create a registration form with name, lastname, username, password that on submit will send all the fields to the server.
+   ..*On Success you can hide the form and show a success message.

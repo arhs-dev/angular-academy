@@ -1,0 +1,10 @@
+<h3>Search For Movies</h3>
+<p><i>Searches when typing stops.</i></p>
+<input (keyup)="search($event.target.value)" id="name" placeholder="Search" />
+
+<ul>
+  <li *ngFor="let movie of movies$ | async">
+    <b>{{ movie.title }}</b> - imdbId: {{ movie.imdbId }} - {{ movie.type }} -
+    <i>{{ movie.year }}</i>
+  </li>
+</ul>
